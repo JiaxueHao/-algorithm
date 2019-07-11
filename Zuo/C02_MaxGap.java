@@ -12,6 +12,9 @@ public class C02_MaxGap {
 
 	private static int MaxGap(int[] arr) {
 		// TODO Auto-generated method stub
+		if(arr==null|arr.length<2) {
+			return 0;
+		}
 		int len = arr.length;
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
