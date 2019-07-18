@@ -1,13 +1,10 @@
 package Zuo;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
-//一.用队列结构实现栈结构
-//二.用栈结构实现队列结构:
-//	 倒数据行为：
-//		1.pop栈有数据时不能倒
-//		2.要倒就都倒完
-public class StackAndQueueConvert {
+public class C03_StackAndQueueConvert {
 	
 	public static void main(String[] args) {
 		
@@ -52,5 +49,5 @@ class QueueToStack{
 		}
 		return q1.remove();
 	}
-	
 }
+	
