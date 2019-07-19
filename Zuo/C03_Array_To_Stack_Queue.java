@@ -90,6 +90,7 @@ class ArrayQueue{
 		if(size == queue.length) {
 			throw new ArrayIndexOutOfBoundsException("queue is full");
 		}
+		//有界队列，队列满时，添加到列头
 		int index = (end++) % queue.length;
 		queue[index]=value;
 		size++;
