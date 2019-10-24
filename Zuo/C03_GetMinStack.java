@@ -42,7 +42,7 @@ class MinStack{
 			smin.push(min);
 		}
 	}
-	
+
 	public void pop() {
 		if(data.isEmpty()){
 			throw new RuntimeException("stack is empty");
